@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    /* background-image: url('./images/pat.jpg'); */
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    background-color: rgb(147, 122, 170);
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    backdrop-filter: blur(20px);
+}
+
+.nav {
+    margin-top: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    width: 99vw;
+}
+
+.main-nav {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.logo {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.logo span {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: black;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.nav .logo .logo-img {
+    height: 50px;
+}
+
+.links {
+    padding: 10px;
+}
+
+.links a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    margin-left: 50px;
+}
+
+.log a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.log a:hover {
+    color: darkblue;
+}
+
+.log button {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: darkblue;
+    padding: 5px 15px;
+    border: 1px solid gray;
+    outline: 0;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.log button:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+.box {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.content-box{
+    border-right: 10px solid darkblue;
+    padding-right: 30px;
+}
+
+.content-box h1 {
+    font-size: 80px;
+    margin-top: 50px;
+    color: darkblue;
+}
+
+
+.image-box .side-img {
+    height: 400px;
+}
+
+.text-box {
+    width: 30vw;
+    word-wrap: break-word;
+    color: black;
+    font-size: 20px;
+}
+
+.s-btn {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 20px 70px;
+    margin: 20px;
+    color: darkblue;
+    border: 0;
+    outline: 0;
+    background-color: rgb(133, 126, 126);
+    cursor: pointer;
+}
+
+.s-btn:hover {
+    background-color: darkblue;
+    color: white;
+}
